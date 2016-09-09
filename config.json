@@ -1,0 +1,10 @@
+{
+  "authentication": {
+    "consumer_key": "",
+    "consumer_secret": "",
+    "access_token": "",
+    "access_token_secret": ""
+  },
+  "keywords": "comma,delimited,list of keywords,to grab",
+  "keys": []
+}

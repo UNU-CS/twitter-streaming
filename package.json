@@ -1,0 +1,29 @@
+{
+  "name": "twitter-streaming",
+  "version": "0.1.0",
+  "description": "Stream tweets and output csv",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-keys": "node update-keys",
+    "start": "node run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UNU-CS/twitter-streaming.git"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "Philip Garrison <philipgarrison@unu.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UNU-CS/twitter-streaming/issues"
+  },
+  "homepage": "https://github.com/UNU-CS/twitter-streaming#readme",
+  "dependencies": {
+    "deep-keys": "^0.3.0",
+    "graceful-fs": "^4.1.6",
+    "twit": "^2.2.4"
+  }
+}
