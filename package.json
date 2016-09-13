@@ -22,8 +22,11 @@
   },
   "homepage": "https://github.com/UNU-CS/twitter-streaming#readme",
   "dependencies": {
+    "async": "^2.0.1",
     "deep-keys": "^0.3.0",
     "graceful-fs": "^4.1.6",
+    "json2csv": "^3.6.3",
+    "lodash": "^4.15.0",
     "twit": "^2.2.4"
   }
 }

@@ -6,7 +6,7 @@ var fs = require('graceful-fs');
 var expect = require('chai').expect;
 
 module.exports = (callback) => {
-  fs.readFile('config.json', (err, configStr) => {
+  fs.readFile('./config.json', (err, configStr) => {
     if (err) throw err;
     var config = JSON.parse(configStr);
     console.log(config.authentication);
