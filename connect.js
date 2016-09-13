@@ -9,7 +9,6 @@ module.exports = (callback) => {
   fs.readFile('./config.json', (err, configStr) => {
     if (err) throw err;
     var config = JSON.parse(configStr);
-    console.log(config.authentication);
     var T = new Twit(config.authentication);
 
     T.get('account/verify_credentials', { twit_options: { retry: true } })
