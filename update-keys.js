@@ -52,7 +52,7 @@ function save(config, keys) {
   removed && console.log('Removed keys ' + removed + '.');
 
   fs.writeFile('./config.json', JSON.stringify(config, null, 2), err => {
-    if(err) throw err;
+    if (err) throw err;
     console.log('Updated config.json');
     process.exit(0);
   });

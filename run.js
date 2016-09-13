@@ -47,7 +47,7 @@ function writeTweets() {
   var ENOENT = -2;
   async.waterfall([
     function(next) {
-      fs.stat(filename, function(err, stats) {
+      fs.stat(filename, function(err) {
         if (err && err.errno === ENOENT) {
           return next(null, false);
         }
